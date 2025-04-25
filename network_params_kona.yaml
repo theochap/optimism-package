@@ -6,6 +6,7 @@ optimism_package:
       - el_type: op-reth
         cl_type: kona-node
         cl_log_level: "info"
+        cl_image: "kona-node:local"
         count: 1
       network_params:
         network: "kurtosis"
